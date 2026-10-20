@@ -17,7 +17,7 @@ const CONFIG = {
   //   "api"  – the browser asks the Zotero API on every visit (public libraries only, no key)
   //   "file" – the page reads data/items.json, written by the GitHub Action with your secret key
   //            (private libraries; see README → «Private library»)
-  source: "api",
+  source: "file",
 
   // Optional: only one collection (the 8-character key in the collection's URL), "" = whole library
   collectionKey: "KTVS8R4Y",     // dh_unibe → lecture-introduction
